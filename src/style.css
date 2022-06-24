@@ -9,13 +9,13 @@ header {
   display: flex;
   align-items: center;
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
-  padding: 0px 20px;
   justify-content: space-between;
 }
 
 header > div {
   display: flex;
   align-items: center;
+  margin-left: 25px;
 }
 
 header > div > img {
@@ -34,4 +34,49 @@ header > p {
   color: white;
   font-weight: 500;
   font-size: 12px;
+  margin-right: 25px;
 }
+
+main {
+  margin: 40px;
+}
+
+form {
+  
+}
+
+form > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+form > div > input {
+  width: 45%;
+  height: 30px;
+  border-color: #D5D4D8;
+  border-width: 1px;
+  border-radius: 5px;
+  text-indent: 10px;
+  font-family: Karla;
+  box-sizing: border-box;
+}
+
+form > button {
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  font-family: Karla;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+main > img {
+  width: 100%;
+  height: 270px;
+  margin-top: 30px;
+}
+
