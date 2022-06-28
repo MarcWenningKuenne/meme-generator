@@ -10,7 +10,7 @@ function Meme() {
         randomImage: "http://i.imgflip.com/1bij.jpg"
     })
 
-    function changeMeme(){
+    function changeMemeImage(){
         let memeID = Math.floor(Math.random() * allMemeImages.data.memes.length)
 
         setMeme(prevMeme => {
@@ -52,7 +52,7 @@ function Meme() {
                     />
                 </div>
             </form>
-            <button onClick={changeMeme}>Get a new meme image 🖼</button>
+            <button onClick={changeMemeImage}>Get a new meme image 🖼</button>
             <div className="meme">
                 <img src={meme.randomImage} className="meme--image" />
                 <h2 className="meme--text top">{meme.topText}</h2>
